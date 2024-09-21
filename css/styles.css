@@ -1,0 +1,93 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main container styles */
+main {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title styles */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Date styles */
+.date {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #34495e;
+}
+
+/* Button styles */
+.button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover and focus styles */
+.button:hover,
+.button:focus {
+  background-color: #2980b9;
+}
+
+/* Button focus styles for accessibility */
+.button:focus {
+  outline: 3px solid #2980b9;
+  outline-offset: 2px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 480px) {
+  main {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* TODO: Review color contrast ratios for WCAG 2.1 Level AA compliance */
+/* TODO: Consider adding print styles for better print layout */
+/* TODO: Evaluate the use of CSS variables for easier theme customization */
+/* TODO: Optimize CSS for performance (e.g., combining selectors, reducing specificity) */
