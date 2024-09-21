@@ -1,0 +1,26 @@
+{
+  "name": "hello-world-web",
+  "version": "1.0.0",
+  "description": "A simple web application that displays 'Hello World' and the current date",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "hello-world",
+    "web",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "http-server": "^14.1.1",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {}
+}
