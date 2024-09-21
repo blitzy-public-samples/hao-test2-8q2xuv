@@ -1,0 +1,1 @@
+I need to develop a very simple web application that displays "Hello world" and today's date as well as a button with label "refresh". No server side logic is needed.
